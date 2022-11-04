@@ -1,0 +1,213 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
+}
+.page-header {
+  color: #000000;
+  background-color: #ffffff;
+}
+.navigation-link {
+  line-height: 22px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.main-index {
+  color: #000000;
+  background-color: #ffffff;
+  background-image: url("../images/background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.advantages-list {
+  text-align: center;
+}
+.advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.advantages-item.with-image {
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+.button-search-hotels {
+  color: #ffffff;
+  background-color: #756157;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.page-footer {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #82b3d3;
+  background-image: url(../images/footer.jpg);
+  background-repeat: no-repeat;
+  text-decoration: none;
+  background-size: 100% auto;
+  text-transform: uppercase;
+  text-align: center;
+}
+.catalog-footer {
+  color: #000000;
+  background-image: none;
+  background-color: #ffffff;
+}
+.field {
+  color: #000000;
+  background: #f2f2f2;
+  border: #f2f2f2;
+  font-size: 18px;
+  line-height: 24px;
+}
+.button {
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: transparent;
+  text-decoration: none;
+}
+.newslatter-button {
+  background-color: #82b3d3;
+  border: #82b3d3;
+  font-size: 20px;
+  line-height: 36px;
+}
+.footer-social-item a {
+  background-color: #ffffff;
+  text-decoration: none;
+  color: #000000;
+}
+.footer-contacts-phone a {
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+}
+.htmlacademy-link {
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff;
+}
+.inner-header-title {
+  font-size: 60px;
+  line-height: 78px;
+  color: #ffffff;
+}
+.sorting-container {
+  background-image: url(../images/catalog.jpg);
+  background-color: #82b3d3;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.breadcrumbs {
+  color: #ffffff;
+}
+.breadcrumbs-link {
+  color: inherit;
+}
+.breadcrumbs-item {
+  color: #ffffff;
+}
+.catalog-filter-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.submit {
+  background-color: #82b3d3;
+  border: #82b3d3;
+}
+.control-label {
+  font-weight: 700;
+}
+.select-control {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  background-color: #ffffff;
+}
+.hotel-card {
+  text-decoration: none;
+}
+.hotel-card-link {
+  font-weight: 700;
+  color: #000000;
+  text-decoration: none;
+}
+.hotel-card-price {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+}
+.hotel-card-more-info {
+  background-color: #756157;
+}
+.hotel-card-top {
+  background-color: #82b3d3;
+}
+.rating {
+  font-weight: 400;
+  color: #333333;
+  background-color: #f2f2f2;
+}
+.pagination {
+  background-color: #f2f2f2;
+}
+.pagination-link {
+  color: #ffffff;
+  background-color: #82b3d3;
+  text-decoration: none;
+  line-height: 36px;
+  font-weight: 700;
+}
+.pagination-current {
+  color: #000000;
+  background-color: #f2f2f2;
+}
